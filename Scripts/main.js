@@ -109,7 +109,7 @@ myButton.onclick = () => {
 */
 
 let myButton = document.querySelector("button")
-let myHeading = document.querySelector("h1")
+let myHeading = document.querySelector("h1.t1")
 
 function setUserName() {
     const name = prompt('Digite seu nome:')
