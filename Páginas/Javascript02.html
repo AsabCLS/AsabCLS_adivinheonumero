@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é Javascript? 02</title>
+    <link rel="stylesheet" href="../Estilos/Javascript02.css">
+</head>
+<body>
+    <p>Clique em mim</p>
+    <!--    <script src="../Scripts/Javascript02.js"></script>      -->
+    <script>
+        function criarParagrafo () {
+            let myP = document.createElement("p");
+            myP.textContent = "Clicou no botão, um novo parágrafo foi adicionado!"
+            document.body.appendChild("myP")
+        }
+
+        const botoes = document.querySelectorAll("button")
+
+        for (var i = 0; i <botoes.length; i++) {
+            botoes[i].addEventListener("cli")
+        }
+
+    </script>
+</body>
+</html>

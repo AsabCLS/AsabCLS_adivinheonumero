@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de adivinhe o numero</title>
+    <link rel="stylesheet" href="../Estilos/adivinheonumero.css">
+</head>
+<body>
+
+    <h1>Jogo de Adivinhar o Número</h1>
+
+    <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhá-lo em 10 turnos ou menos. Nós lhe diremos se o seu palpite foi muito alto ou muito baixo, a depender do quão perto ou longe seu palpite passou do resultado:</p>
+
+    <div class="forma">
+        <label for="campoDePalpite">Digite um palpite: </label>
+        <input type="number" min="1" max="100" required id="campoDePalpite" class="campoDePalpite">
+        <input type="submit" value="Verificar o Palpite" class="envioDePalpite">
+    </div>
+
+    <div class="resultado">
+        <p class="palpites"></p>
+        <p class="ultimoResultado"></p>
+        <p class="baixoOuAlto"></p>
+    </div>
+    <script src="../Scripts/adivinheonumero.js"></script>
+</body>
+</html>
